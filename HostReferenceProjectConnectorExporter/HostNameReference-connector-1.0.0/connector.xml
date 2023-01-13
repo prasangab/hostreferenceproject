@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connector>
+    <component name="HostNameReference" package="org.wso2.carbon.connector" >
+        <dependency component="hostname-reference" />
+        <description>WSO2 HostNameReference connector library</description>
+    </component>
+    <icon>icon/icon-small.gif</icon>
+</connector>

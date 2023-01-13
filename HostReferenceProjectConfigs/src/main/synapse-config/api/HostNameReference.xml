@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/host" name="HostNameReference" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" url-mapping="/getHost">
+        <inSequence>
+            <sequence key="HostNameReference_GetHost_Sequence"/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

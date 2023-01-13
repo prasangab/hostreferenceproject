@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: HostNameReference
+  description: API Definition of HostNameReference
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/host
+paths:
+  /getHost:
+    get:
+      responses:
+        default:
+          description: Default response

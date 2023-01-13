@@ -1,0 +1,10 @@
+<template name="hostname-reference" xmlns="http://ws.apache.org/ns/synapse">
+    <parameter name="log_param" description="Retrieve the IP and Hostname" />
+    <sequence>
+      <log level="custom">
+        <property name="STATUS" value="Executing the Connector to retrieve the host name and IP address."/>
+        <property name="Template Parameter" expression="$func:log_param" />
+      </log>
+      <class name="org.wso2.carbon.connector.HostNameReferenceConnector" />
+    </sequence>
+</template>

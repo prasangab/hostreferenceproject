@@ -1,0 +1,15 @@
+*/target/**
+**/target/*
+**/target/
+*/target/
+/target/
+.settings
+*/bin/**
+.classpath
+.flattened-pom.xml
+pom.xml.versionsBackup
+target/
+target/*
+.DS_Store
+/.metadata/
+*/.DS_Store

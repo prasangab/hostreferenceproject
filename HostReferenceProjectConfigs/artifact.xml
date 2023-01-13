@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="HostNameReference" groupId="com.wso2.reference.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/HostNameReference.xml</file>
+    </artifact>
+    <artifact name="HostNameReference_swagger" groupId="com.wso2.reference.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/HostNameReference_swagger.yaml</file>
+    </artifact>
+    <artifact name="HostNameReference_metadata" groupId="com.wso2.reference.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/HostNameReference_metadata.yaml</file>
+    </artifact>
+    <artifact name="HostNameReference_GetHost_Sequence" groupId="com.wso2.reference.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/HostNameReference_GetHost_Sequence.xml</file>
+    </artifact>
+</artifacts>

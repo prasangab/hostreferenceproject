@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="hostname-reference" type="synapse/template">
+    <subComponents>
+        <component name="hostname-reference">
+            <file>hostname-reference.xml</file>
+            <description>Retrieve the IP Address and Host Name of the Server</description>
+        </component>
+    </subComponents>
+</component>

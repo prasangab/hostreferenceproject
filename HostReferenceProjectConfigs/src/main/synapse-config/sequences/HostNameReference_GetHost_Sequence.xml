@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="HostNameReference_GetHost_Sequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log level="custom">
+        <property name="STATUS" value="Executing the HostNameReference_GetHost_Sequence"/>
+    </log>
+    <hostnamereference.hostname-reference/>
+    <payloadFactory media-type="json">
+        <format>
+	      { "hostIpAddrress" : "$1" , "hostName" : "$2" }
+	    </format>
+        <args>
+            <arg evaluator="xml" expression="$ctx:ip"/>
+            <arg evaluator="xml" expression="$ctx:host"/>
+        </args>
+    </payloadFactory>
+    <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+    <respond/>
+</sequence>
